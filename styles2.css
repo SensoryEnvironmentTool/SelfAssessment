@@ -21,7 +21,12 @@ h2,h3{
 .part{
   font-weight: normal;
 }
-
+.logo{
+  display:none;
+}
+.logoprint{
+  height: 10vh;
+}
 }
 
 @media only screen {
@@ -30,7 +35,6 @@ h2,h3{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 html,body{
@@ -131,6 +135,9 @@ header{
 
 .logo{
   height: 10vh;
+}
+.logoprint{
+  display:none;
 }
 
 .space{
